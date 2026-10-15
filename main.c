@@ -1,5 +1,5 @@
 #include <stdio.h>
-int all_files;
+static int all_files;  //해당 파일 내로 범위를 제한
 
 extern void sub();
 
